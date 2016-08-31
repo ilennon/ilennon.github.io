@@ -1,0 +1,32 @@
+*{font-size:100%;margin:0;padding:0;font-family:arial,sans-serif;}
+html,body{width:100%;height:100%;background:#f3f3f3;}
+header{width:100%;height:10%;display:block;background:#212121;-webkit-box-shadow:0px 2px 2px 2px rgba(0,0,0,0.75);-moz-box-shadow:0px 2px 2px 2px rgba(0,0,0,0.75);box-shadow:0px 2px 2px 2px rgba(0,0,0,0.75);}
+header button.me{display:inline-block;color:#fff;background:transparent;border:none;height:100%;margin:0 2%;font-size:200%;outline:none;}
+header button.me a{transition:.5s;cursor:pointer;text-decoration:none;color:#fff;}
+header button.me a:hover{color:orange;transition:.5s;}
+header ul{list-style:none;display:inline-block;}
+header ul li{list-style-type:none;display:inline-block;}
+header ul li a{transition:.25s;text-decoration:none;color:#fff;border-radius:3px;display:block;padding:12px;font-size:120%;}
+header ul li a:hover{transition:.25s;color:#000;background:#fff;}
+div.content{width:70%;overflow-y:auto;display:block;margin:0 auto;}
+div.content h1{width:100%;display:block;text-align:center;padding:1% 0;font-size:400%;}
+div.content h1 span{font-size:50%;background:#ccc;color:#222;padding:4px;border-radius:5px;margin-left:20px;display:inline-block;}
+div.content div.info{display:inline-block;position:relative;float:left;width:60%;background:#fff;border:1px solid #a0a0a0;border-radius:15px;padding:20px 0;}
+div.content div.info h2{color:#343434;width:90%;background:#f3f3f3;text-align:center;display:block;margin:0 auto;padding:6px 0;}
+div.content div.info p{width:90%;display:block;font-size:100%;margin:12px auto;}
+div.content div.info textarea.code{resize:none;overflow:hidden;color:#444;border-radius:5px;width:calc(90% - 24px);padding:12px 12px 0 12px;display:block;font-size:100%;margin:6px auto;background:#ededed;border:1px solid #ccc;}
+div.content div.info i.usage{color:#444;display:inline-block;padding:12px;font-size:100%;background:#efefef;}
+div.content div.info div.function{padding-bottom:12px;padding-top:12px;border-bottom:1px solid #ddd;}
+div.content div.info div.function::last-child{border:none;}
+div.content div.files{display:inline-block;position:relative;float:right;width:30%;background:#fff;border:1px solid #a0a0a0;border-radius:15px;padding:20px 0;margin-left:calc(9% - 4px);}
+div.content div.files a.download{text-decoration:none;text-align:center;border-radius:5px;width:90%;background:green;border:1px solid darkgreen;color:#fff;display:block;margin:0 auto;padding:12px 0;}
+div.content div.files span.files{text-decoration:none;text-align:center;width:90%;background:#ededed;color:#444;border:1px solid #ccc;display:block;border-radius:5px;margin:12px auto 0 auto;padding:6px 0;}
+div.content div.files a.folder{text-decoration:none;text-align:left;width:90%;color:#222;display:block;margin:12px auto 0 auto;padding:6px 0;}
+div.content div.files a.folder::before{content:"📂 "}
+div.content div.files a.file{text-decoration:none;text-align:left;width:90%;color:#aaa;display:block;margin:0 auto;padding:3px 0;}
+div.content div.files a.file::before{content:"• ";}
+div.content div.files a.file.no::before{content:"○ ";}
+div.content div.files a.file.in{text-decoration:none;text-align:left;width:80%;color:#aaa;display:block;margin:0 auto;padding:3px 0;}
+div.content div.files a.file.active{color:orange;}
+div#fork-on-github{position:fixed;right:0;top:0;z-index:3;display:block;}
+div#fork-on-github img{width:100%;height:100%;display:block;}
